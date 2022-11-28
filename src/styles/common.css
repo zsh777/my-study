@@ -1,0 +1,173 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+img {
+  display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+select,
+input {
+  vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.border-radusStyle {
+  border: 1px solid rgba(220, 223, 229, 1);
+  background: rgba(245, 247, 250, 1);
+  border-radius: 4px;
+}
+.peopleStyle {
+  box-sizing: border-box;
+  border: 1px solid rgba(220, 223, 229, 1);
+  border-radius: 4px;
+  background: rgba(245, 247, 250, 1);
+  padding: 0 10px 10px 10px;
+}
+.textOneStyle {
+  height: 44px;
+  margin: 0 -10px;
+  line-height: 44px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  border-bottom: 1px solid rgba(220, 223, 229, 1);
+  border-radius: 4px 4px 0 0;
+  padding-left: 15px;
+  background-color: #fff;
+}
+
+.dialog-tree {
+  width: 220px;
+  height: 570px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid #dcdfe5;
+  border-radius: 4px;
+}
+.tableStyle {
+  border: 1px solid rgba(220, 223, 229, 1) !important;
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+
+}
+.tableStyle .pagination {
+    position: absolute;
+    bottom: 5px;
+  }
+.buttonIcon {
+  width: 44px;
+  height: 40px;
+  cursor: pointer;
+}
+.buttonIcon:hover {
+  background-color: #e6e6e6;
+}
+.el-tabs--left .el-tabs__header.is-left {
+  float: left;
+  margin-bottom: 0;
+  margin-right: 10px;
+  width: 160px;
+  height: 570px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid #dcdfe5;
+  border-radius: 4px;
+  background: #ffffff;
+}
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  color:gold !important;
+}
+.el-table th.is-leaf{
+  background-color: rgba(233, 242, 252, 1) !important;
+}
+.el-tree-node__content{
+  height: 46px !important;
+}
