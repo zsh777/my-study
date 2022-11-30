@@ -41,7 +41,7 @@
                   <ul>
                   <li><a @click='changeMenu("basicComponent")'>组件练习1</a></li>
                   <li><a @click='changeMenu("css")'>样式练习1</a></li>
-                  <li><a @click='changeMenu("politics")'>政治</a></li>
+                  <li><a @click='changeMenu("formComponent")'>Form组件练习</a></li>
                 </ul>
               </li>
             </ul>

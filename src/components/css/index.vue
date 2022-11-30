@@ -19,10 +19,14 @@ export default {
     width: 1000px;
     height: 600px;
     border: 1px solid #A7C942;
-    padding: 1px 1px 1px 1px;
-    margin: 10px;
+    /* padding: 1px 1px 1px 1px; */
+    padding: 1px;
+    /* margin: 10px; */
     outline-style:dotted;
     outline-color:blue;
+    margin: auto;
+    position: relative;
+    transform: translateY(50px);
 }
 .top1{
     background-color:violet;

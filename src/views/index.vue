@@ -13,6 +13,7 @@
         <Class v-if="type === 'class'"></Class>
         <BasicComponent v-if="type === 'basicComponent'"></BasicComponent>
         <Css v-if="type ==='css'"></Css>
+        <FormComponent v-if=" type=== 'formComponent'"></FormComponent>
         </div>
     </div>
   </div>
@@ -29,6 +30,7 @@ import GeographyClass from '../components/geography/index.vue'
 import Class from '../components/search/byClass/index.vue'
 import BasicComponent from '../components/basicComponent/index.vue'
 import Css from '../components/css/index.vue'
+import FormComponent from "../components/formComponent/formComponent.vue"
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'index',
@@ -42,7 +44,8 @@ export default {
     GeographyClass,
     Class,
     BasicComponent,
-    Css
+    Css,
+    FormComponent
     },
     data () {
     return {
